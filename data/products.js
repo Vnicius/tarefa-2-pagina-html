@@ -1,182 +1,242 @@
 const products = [
   {
-    id: "5b7f09a53047dcaf67f8102e",
-    picture: "https://picsum.photos/300/300/?random",
-    name: "sint aute esse",
-    price: "$ 3,687.690",
-    description:
-      "Elit elit eu pariatur cillum in. Occaecat qui amet pariatur do nostrud veniam anim adipisicing ullamco. Proident incididunt quis nulla occaecat ex culpa ex. Amet eiusmod sint labore ex incididunt sit officia proident nisi minim sint ullamco.",
-    category: "Eletrônicos, TV e Áudio"
+    "id": "5b7f4941813f89b50db2311f",
+    "picture": "https://picsum.photos/300/300",
+    "name": "occaecat culpa magna",
+    "price": 717,
+    "description": "Irure sit ipsum sint culpa qui. Sunt cupidatat dolore laboris sit commodo ut dolore incididunt mollit et. Aliquip ipsum amet qui mollit. Ipsum labore consectetur do ullamco adipisicing sint culpa.",
+    "category": "Brinquedos"
   },
   {
-    id: "5b7f09a51176c07b09ba4acd",
-    picture: "https://picsum.photos/300/300/?random",
-    name: "sunt commodo ad",
-    price: "$ 3,855.430",
-    description:
-      "Nostrud est anim esse non dolore dolore excepteur ut ut aliqua reprehenderit non magna in. Consectetur eu et fugiat in ullamco id sint Lorem cupidatat aliquip elit. Proident dolore anim ullamco cupidatat reprehenderit id proident consequat cupidatat dolore. Qui est do eu exercitation commodo ex qui nisi quis sint enim non. Lorem laboris minim eiusmod anim.",
-    category: "Eletrônicos, TV e Áudio"
+    "id": "5b7f49418b3b45fb3e064bea",
+    "picture": "https://picsum.photos/300/300",
+    "name": "aliqua anim cillum",
+    "price": "59.16",
+    "description": "Nisi id qui labore nisi consequat adipisicing veniam incididunt enim nulla. Ut anim commodo nulla sit. Ea eu sint deserunt consequat. Duis cupidatat veniam laborum ipsum enim occaecat labore dolor nostrud ea do minim ullamco tempor. Elit exercitation dolor tempor velit Lorem nulla velit aliquip deserunt cillum nisi duis aute adipisicing. Lorem Lorem magna magna amet.",
+    "category": "Eletrodomésticos"
   },
   {
-    id: "5b7f09a557bfe0a7d733b083",
-    picture: "https://picsum.photos/300/300/?random",
-    name: "deserunt irure ea",
-    price: "$ 1,200.170",
-    description:
-      "Elit ullamco enim ipsum laboris mollit do eiusmod enim esse non. Occaecat labore nostrud officia fugiat nulla dolore pariatur enim magna ad aliqua consequat. Magna officia officia aute veniam occaecat voluptate aliquip ad amet aliqua magna cillum. Fugiat dolore non do officia nulla in proident aute quis id proident ut veniam.",
-    category: "Celulares e Comunicação"
+    "id": "5b7f494102f7a77553522455",
+    "picture": "https://picsum.photos/300/300",
+    "name": "officia labore dolore",
+    "price": "851.59",
+    "description": "Excepteur eu aliqua adipisicing tempor eu id do ullamco magna nostrud sit dolor veniam. Ea sint eiusmod et dolor reprehenderit aute velit est sit ipsum exercitation dolor. Labore irure aliquip tempor ad voluptate nisi dolore exercitation occaecat sunt pariatur commodo eiusmod.",
+    "category": "Automotivo"
   },
   {
-    id: "5b7f09a5e3c4d7ab6ce70205",
-    picture: "https://picsum.photos/300/300/?random",
-    name: "qui est laborum",
-    price: "$ 3,114.570",
-    description:
-      "Fugiat Lorem anim ea cupidatat veniam Lorem commodo dolor enim nisi commodo anim. Ipsum ex minim Lorem mollit ad fugiat tempor nisi et. Do veniam occaecat qui eu ea anim et est voluptate. Ex officia veniam laborum labore occaecat cillum esse est. Ex eu eu dolor dolore id veniam sit officia mollit fugiat non duis. Ea veniam nulla ad et fugiat aliquip in reprehenderit velit elit reprehenderit et irure sit. Consectetur mollit elit labore incididunt dolore laboris.",
-    category: "Eletrodomésticos"
+    "id": "5b7f4941e0eede2901b1a8f9",
+    "picture": "https://picsum.photos/300/300",
+    "name": "eu adipisicing nostrud",
+    "price": "52.52",
+    "description": "Esse dolore amet laboris non ad cupidatat mollit consectetur ad. Excepteur ad laborum cupidatat est nostrud pariatur cupidatat incididunt et anim. Id proident pariatur qui in ut in est amet. Laboris dolore ex dolore et anim magna in ullamco ad cillum ullamco exercitation. Qui occaecat ipsum incididunt sint quis mollit.",
+    "category": "Celulares e Comunicação"
   },
   {
-    id: "5b7f09a501a339856ca58cad",
-    picture: "https://picsum.photos/300/300/?random",
-    name: "consequat officia non",
-    price: "$ 2,086.790",
-    description:
-      "Eu adipisicing ad sit duis ut ullamco ex quis id elit est magna cillum eiusmod. Minim consequat pariatur officia exercitation cupidatat ex ex. Cillum officia irure ullamco aliqua esse ullamco qui nisi amet culpa duis culpa id. Magna consectetur occaecat quis eu labore occaecat proident anim aliquip id nisi eu culpa. Minim nulla incididunt aliquip officia officia pariatur. Consectetur ipsum sunt veniam et do in ipsum. Labore in quis nostrud ut non est cupidatat id voluptate veniam est ex.",
-    category: "Eletrônicos, TV e Áudio"
+    "id": "5b7f4941a9c216595a9bfb68",
+    "picture": "https://picsum.photos/300/300",
+    "name": "laboris irure laborum",
+    "price": "505.88",
+    "description": "Non duis sunt et anim dolor reprehenderit elit nostrud do voluptate proident. Officia ut adipisicing id non adipisicing voluptate nostrud. Ipsum aliqua laborum ut do sunt reprehenderit elit minim nulla ad. Sunt reprehenderit labore laborum nisi Lorem. Officia ea est laborum ea sint. Aute nisi deserunt dolore nisi eiusmod esse fugiat.",
+    "category": "Eletroportáteis"
   },
   {
-    id: "5b7f09a5c6f60705049d99ee",
-    picture: "https://picsum.photos/300/300/?random",
-    name: "et ad et",
-    price: "$ 2,089.830",
-    description:
-      "In consequat non minim mollit officia. Non id esse cillum laborum excepteur nulla. Ad dolor cillum aute voluptate veniam incididunt deserunt. Ullamco voluptate laboris non aute.",
-    category: "Eletrodomésticos"
+    "id": "5b7f4941d4314f71c07a0272",
+    "picture": "https://picsum.photos/300/300",
+    "name": "irure et dolore",
+    "price": "626.6",
+    "description": "Ut id non nulla qui sunt amet dolor esse amet qui excepteur ad. Eiusmod adipisicing sint ad eu velit voluptate proident eu eiusmod. Id nulla velit Lorem cupidatat dolor labore fugiat quis exercitation ut officia minim esse. Laborum sunt enim anim proident sit. Amet commodo irure veniam eiusmod aliqua.",
+    "category": "Celulares e Comunicação"
   },
   {
-    id: "5b7f09a543c34ff002035d60",
-    picture: "https://picsum.photos/300/300/?random",
-    name: "sint officia eiusmod",
-    price: "$ 3,679.840",
-    description:
-      "Quis minim ea dolor voluptate laboris in quis minim voluptate occaecat ex qui do. Fugiat enim cillum voluptate magna voluptate culpa in laborum officia incididunt. Sint commodo consequat labore ipsum est aliqua excepteur eu tempor ut.",
-    category: "Celulares e Comunicação"
+    "id": "5b7f4941f176bfc122d57e88",
+    "picture": "https://picsum.photos/300/300",
+    "name": "eiusmod enim ipsum",
+    "price": "323.65",
+    "description": "Officia aliqua culpa ullamco aliqua cillum sint fugiat excepteur. Quis ad dolore incididunt id ipsum ea commodo. In proident sint laborum duis exercitation aute commodo anim occaecat sunt magna. Tempor nulla duis nulla laborum commodo nulla nisi veniam ea exercitation ad non laborum nulla. Consectetur quis ad officia qui. Esse est ad aliqua excepteur ullamco nisi cillum ad. Minim tempor laborum incididunt non.",
+    "category": "Automotivo"
   },
   {
-    id: "5b7f09a55b514e9844da2683",
-    picture: "https://picsum.photos/300/300/?random",
-    name: "magna irure fugiat",
-    price: "$ 1,901.670",
-    description:
-      "Officia officia dolor enim proident. Qui irure ad dolor proident anim adipisicing irure anim minim excepteur. Laboris quis elit ullamco velit pariatur esse. Do aute ea aliqua ipsum irure. Aliqua sint sint mollit quis et commodo aliquip. Enim veniam anim velit ipsum pariatur deserunt do esse aliqua consequat eiusmod aliquip ex.",
-    category: "Eletrônicos, TV e Áudio"
+    "id": "5b7f4941ffa3b1d5528ae446",
+    "picture": "https://picsum.photos/300/300",
+    "name": "fugiat est dolore",
+    "price": "574.61",
+    "description": "Cillum sunt ut sunt magna mollit nostrud ea ad esse Lorem esse dolor ipsum. Aliqua ut et duis laboris dolore reprehenderit eu. Qui incididunt anim est aliqua ipsum duis consequat nulla. Eiusmod sit aute anim officia culpa adipisicing velit aute minim magna. Consequat consectetur nisi deserunt irure consectetur ipsum qui non aute sint.",
+    "category": "Educação"
   },
   {
-    id: "5b7f09a5168f84c33e3619b0",
-    picture: "https://picsum.photos/300/300/?random",
-    name: "laborum mollit ex",
-    price: "$ 3,506.020",
-    description:
-      "Adipisicing velit ut enim sunt nostrud id incididunt pariatur dolore sunt sint eiusmod. Qui nisi qui exercitation exercitation non esse consectetur laboris ex labore labore reprehenderit eu. Ut enim aute laboris tempor cillum sit ut tempor adipisicing.",
-    category: "Eletrônicos, TV e Áudio"
+    "id": "5b7f49411e0949afa8395943",
+    "picture": "https://picsum.photos/300/300",
+    "name": "id pariatur laborum",
+    "price": "951.43",
+    "description": "Et incididunt et cupidatat et ut officia commodo elit reprehenderit. Et non id tempor ad id et labore minim ad officia laboris officia. Cillum tempor ut in consectetur magna voluptate nulla reprehenderit excepteur aliquip culpa adipisicing. Excepteur deserunt excepteur sunt consequat. Incididunt aute culpa velit pariatur consectetur nisi duis anim aliquip deserunt magna.",
+    "category": "Eletroportáteis"
   },
   {
-    id: "5b7f09a5697f4006a689e853",
-    picture: "https://picsum.photos/300/300/?random",
-    name: "enim fugiat adipisicing",
-    price: "$ 2,204.230",
-    description:
-      "Velit fugiat pariatur cillum occaecat ipsum veniam et nostrud esse culpa sit incididunt quis. Velit pariatur aliquip ut eu mollit nostrud. Exercitation ex ad commodo dolore incididunt occaecat Lorem minim ea elit non irure. Eiusmod eu voluptate occaecat tempor sint incididunt et eiusmod. Incididunt elit qui ut occaecat nostrud ad et eiusmod fugiat adipisicing reprehenderit. Adipisicing consectetur do excepteur ipsum magna do sint voluptate velit consequat reprehenderit enim dolore. Commodo ex sint duis eiusmod ea excepteur sint proident exercitation fugiat.",
-    category: "Eletrodomésticos"
+    "id": "5b7f4941d7ed623b534faeee",
+    "picture": "https://picsum.photos/300/300",
+    "name": "velit duis irure",
+    "price": "189.54",
+    "description": "Nostrud duis aliqua exercitation sint tempor esse tempor. Et do voluptate aliqua cillum est consectetur pariatur sit in nulla consequat officia. Do est veniam officia commodo irure amet aute consequat ex veniam in esse officia excepteur. Sunt nostrud amet nostrud enim ex qui ullamco pariatur eu eiusmod elit est nostrud. Consectetur veniam reprehenderit incididunt Lorem ea sunt amet velit. Consectetur aliquip amet cillum enim est in culpa ea mollit consequat consequat anim.",
+    "category": "Eletroportáteis"
   },
   {
-    id: "5b7f09a5b69fca47fbc3bbf7",
-    picture: "https://picsum.photos/300/300/?random",
-    name: "ut dolor cupidatat",
-    price: "$ 2,331.690",
-    description:
-      "Culpa qui culpa eu non ipsum aliqua aliqua minim cillum nostrud. Duis incididunt cillum veniam officia eiusmod veniam. Duis laboris cupidatat aliquip reprehenderit. Exercitation dolore deserunt deserunt minim aliqua. Sit fugiat ullamco occaecat ipsum ipsum anim. Consequat enim veniam enim pariatur eiusmod ea velit mollit.",
-    category: "Eletrônicos, TV e Áudio"
+    "id": "5b7f494105b59829883873fd",
+    "picture": "https://picsum.photos/300/300",
+    "name": "ex labore nisi",
+    "price": "765.09",
+    "description": "Excepteur in duis enim amet voluptate nulla aute commodo minim. Labore reprehenderit eiusmod laborum adipisicing ex. Ad in amet minim ullamco ad enim nisi duis enim ad mollit. Veniam sint commodo ut eu aliquip sunt duis qui reprehenderit commodo deserunt exercitation. Incididunt nulla officia dolore aliquip tempor consectetur adipisicing ut. Deserunt nisi occaecat labore Lorem laborum consequat ut consectetur commodo velit sint. Velit sit pariatur eiusmod fugiat anim proident sint incididunt fugiat pariatur.",
+    "category": "Automotivo"
   },
   {
-    id: "5b7f09a5c8724c3dcf832f2b",
-    picture: "https://picsum.photos/300/300/?random",
-    name: "cillum laborum adipisicing",
-    price: "$ 1,766.060",
-    description:
-      "Quis cupidatat esse dolor veniam tempor veniam. Magna culpa laborum aliquip dolore enim sint minim minim quis consequat minim consectetur aliquip. Ullamco reprehenderit exercitation pariatur cillum cupidatat. Incididunt sunt est elit sunt officia aute amet irure duis. Labore est incididunt ut consectetur reprehenderit ex anim. Culpa cillum exercitation reprehenderit magna ipsum sint. Consectetur aute proident sit ad irure dolore dolore ut.",
-    category: "Educação"
+    "id": "5b7f4941cfd5acae883a308a",
+    "picture": "https://picsum.photos/300/300",
+    "name": "velit in irure",
+    "price": "408.97",
+    "description": "Proident nisi fugiat velit sit officia ea sit quis. Sunt voluptate commodo consequat magna anim voluptate fugiat elit labore. Nostrud dolore cupidatat excepteur esse nulla ut sunt et. Amet irure consectetur commodo in tempor voluptate mollit ut magna minim elit deserunt sunt.",
+    "category": "Eletrodomésticos"
   },
   {
-    id: "5b7f09a51ffad0feaafc84be",
-    picture: "https://picsum.photos/300/300/?random",
-    name: "aute commodo consectetur",
-    price: "$ 2,552.330",
-    description:
-      "Nisi dolore eu sint est qui veniam id anim velit consequat ipsum laborum ipsum quis. Eiusmod occaecat incididunt veniam sint cillum. Lorem adipisicing ipsum adipisicing cupidatat officia. Duis exercitation sint fugiat laborum duis eiusmod enim eiusmod. Ea ex ad deserunt pariatur reprehenderit ut non veniam aliqua do. Aliqua sit ipsum veniam aute mollit. Ad ut quis mollit cillum.",
-    category: "Automotivo"
+    "id": "5b7f49416655988356e5da50",
+    "picture": "https://picsum.photos/300/300",
+    "name": "dolore elit cupidatat",
+    "price": "557.19",
+    "description": "Do ex consectetur aliquip anim elit mollit exercitation eu sunt excepteur nostrud proident cillum. Commodo dolor adipisicing ea sint pariatur tempor in aute. Incididunt magna pariatur duis voluptate cupidatat pariatur enim. Magna do labore ipsum excepteur excepteur esse. Ullamco esse sunt ipsum dolore quis sunt adipisicing officia nisi id. Anim esse enim laboris id minim incididunt commodo aute qui. Aute minim sint cillum consequat id irure aliquip non tempor consequat.",
+    "category": "Educação"
   },
   {
-    id: "5b7f09a581e8c0593ab17856",
-    picture: "https://picsum.photos/300/300/?random",
-    name: "elit veniam mollit",
-    price: "$ 2,646.230",
-    description:
-      "Laboris fugiat irure aliqua et pariatur laboris exercitation. Sunt do esse consequat do reprehenderit in laboris amet nostrud. Laborum ad consectetur nostrud minim ullamco pariatur duis labore Lorem. Voluptate ad mollit irure veniam est aliqua nostrud est aute. Velit elit aliquip esse veniam culpa. Aliquip reprehenderit elit consectetur qui est est nostrud do deserunt occaecat sint et.",
-    category: "Brinquedos"
+    "id": "5b7f4941d0e9a0f5a54f7658",
+    "picture": "https://picsum.photos/300/300",
+    "name": "laborum ad non",
+    "price": 869,
+    "description": "Labore qui ipsum velit voluptate est excepteur deserunt. Aliquip ullamco ea elit cupidatat. Magna cillum velit ex qui officia ullamco cillum aute irure occaecat est.",
+    "category": "Brinquedos"
   },
   {
-    id: "5b7f09a51effdd3655ae024e",
-    picture: "https://picsum.photos/300/300/?random",
-    name: "sit excepteur adipisicing",
-    price: "$ 1,582.580",
-    description:
-      "Officia amet culpa sit sit exercitation laboris eiusmod ex excepteur anim occaecat dolor. Magna duis duis tempor duis ullamco consequat consequat anim anim incididunt elit duis veniam. Laborum ad velit eu id cillum esse adipisicing id reprehenderit anim sunt ut. Aliquip do anim sunt enim quis ad do minim cillum irure. Fugiat consequat culpa dolore veniam voluptate velit dolore laborum. Duis consectetur cillum sunt eu sint labore nulla irure proident duis do velit sint.",
-    category: "Eletrônicos, TV e Áudio"
+    "id": "5b7f494140987cd964ed882b",
+    "picture": "https://picsum.photos/300/300",
+    "name": "aliquip labore tempor",
+    "price": "615.49",
+    "description": "Aute pariatur id culpa mollit irure sunt consectetur aliqua sint eu veniam. Cillum exercitation labore ullamco ullamco amet duis consectetur eu exercitation tempor. Consequat enim dolor ad fugiat esse ea dolore et dolor. Irure aliquip proident minim irure duis qui aliquip sunt amet et amet. Officia consequat excepteur nisi deserunt et in ipsum. Sunt sunt aliqua laborum consectetur nostrud laborum duis id aliqua irure qui excepteur in. Lorem quis mollit tempor Lorem excepteur.",
+    "category": "Automotivo"
   },
   {
-    id: "5b7f09a54c51c2dc318b5417",
-    picture: "https://picsum.photos/300/300/?random",
-    name: "ex sunt ex",
-    price: "$ 3,349.620",
-    description:
-      "Cillum elit consequat ad elit occaecat ad voluptate aute duis nisi eiusmod consequat nostrud. Mollit ut velit ipsum aliquip ipsum. Anim fugiat dolor proident aute sint ad cupidatat. Lorem labore id in proident magna in elit dolore Lorem ipsum voluptate. Ut commodo in duis velit amet.",
-    category: "Automotivo"
+    "id": "5b7f49417f3bdc50b5d97baf",
+    "picture": "https://picsum.photos/300/300",
+    "name": "officia excepteur veniam",
+    "price": "274.83",
+    "description": "Enim consequat dolore eu aliqua pariatur ipsum sunt et ullamco sit. Lorem ipsum cillum fugiat officia laboris cupidatat nulla aliquip sit Lorem occaecat incididunt. Et cupidatat in cillum commodo ex. Ex voluptate velit exercitation officia sit cillum.",
+    "category": "Eletrodomésticos"
   },
   {
-    id: "5b7f09a5cabf3d69fd7afd7c",
-    picture: "https://picsum.photos/300/300/?random",
-    name: "fugiat in ad",
-    price: "$ 3,967.710",
-    description:
-      "Lorem velit ipsum nostrud consequat irure. Minim excepteur elit irure sunt voluptate voluptate sit. Sunt aute sint consectetur culpa voluptate occaecat excepteur ad ea laboris magna proident velit nostrud. Commodo duis eiusmod sit voluptate cupidatat do non eiusmod qui culpa proident.",
-    category: "Eletrônicos, TV e Áudio"
+    "id": "5b7f4941acbf7b770e1708ee",
+    "picture": "https://picsum.photos/300/300",
+    "name": "in sunt et",
+    "price": "911.8",
+    "description": "Culpa deserunt laboris ipsum ut aute pariatur elit sint est reprehenderit officia in amet elit. Irure ullamco exercitation ipsum officia excepteur amet magna nostrud nostrud officia. Consectetur incididunt consequat officia consectetur duis qui aliquip eu eu eiusmod elit consequat quis. Cupidatat occaecat eiusmod officia proident sit ex consectetur nulla esse officia exercitation sit irure proident. Ullamco quis nulla consectetur Lorem commodo ex fugiat magna elit est minim. Pariatur non esse labore est occaecat reprehenderit deserunt exercitation incididunt ex. Incididunt voluptate nisi sint deserunt ex minim sint dolore occaecat.",
+    "category": "Brinquedos"
   },
   {
-    id: "5b7f09a594b16360f728a08c",
-    picture: "https://picsum.photos/300/300/?random",
-    name: "dolore elit ex",
-    price: "$ 3,796.530",
-    description:
-      "Sunt irure mollit officia nulla consectetur qui officia minim et. In reprehenderit dolore occaecat elit laborum dolor esse nisi irure enim. Sunt irure dolore commodo sint Lorem aliquip nulla ex id. Adipisicing aliqua ipsum sint ex enim proident dolor Lorem qui adipisicing duis id exercitation in. Nulla velit tempor est enim excepteur ea enim incididunt ut minim.",
-    category: "Educação"
+    "id": "5b7f4941d2850e8f0326ea60",
+    "picture": "https://picsum.photos/300/300",
+    "name": "eiusmod cupidatat sint",
+    "price": "258.86",
+    "description": "Non duis cupidatat cupidatat est et nisi id excepteur est mollit officia aliquip qui ex. Duis voluptate duis dolor incididunt adipisicing elit exercitation amet non commodo aliqua in ullamco quis. Fugiat ipsum dolore exercitation quis. Elit sint quis incididunt mollit. Ad anim id ad sint irure id pariatur fugiat aute commodo Lorem. Et laborum duis laborum cupidatat veniam commodo labore.",
+    "category": "Educação"
   },
   {
-    id: "5b7f09a58901e98bd7cb66c2",
-    picture: "https://picsum.photos/300/300/?random",
-    name: "pariatur magna consectetur",
-    price: "$ 1,600.760",
-    description:
-      "Deserunt irure velit deserunt amet esse non velit. Occaecat ut amet nostrud aliqua do labore aliqua consectetur eiusmod non sint proident. Incididunt nostrud dolor nisi minim et ea minim sunt culpa nulla qui laboris id. Id commodo sunt eiusmod occaecat.",
-    category: "Educação"
+    "id": "5b7f4941b7988eba9cbcc049",
+    "picture": "https://picsum.photos/300/300",
+    "name": "eu et cillum",
+    "price": "455.02",
+    "description": "Id magna ut eu irure occaecat aute mollit nisi dolor sint minim duis dolore. Consectetur ut et pariatur mollit ipsum excepteur consequat dolore qui veniam consectetur amet voluptate. Nisi non consectetur do pariatur commodo culpa consequat adipisicing aliquip. Qui nulla tempor anim sit ut in ipsum sunt. Non aliqua anim reprehenderit irure laboris eu est nostrud reprehenderit culpa ipsum ex in est.",
+    "category": "Educação"
   },
   {
-    id: "5b7f09a55f618290a37bbaaa",
-    picture: "https://picsum.photos/300/300/?random",
-    name: "ullamco consectetur Lorem",
-    price: "$ 2,706.050",
-    description:
-      "Id nisi commodo ullamco in laborum laborum aute. Officia pariatur cillum cupidatat occaecat fugiat voluptate. Ex sit aute eiusmod mollit est duis aliqua adipisicing sunt deserunt aliquip proident.",
-    category: "Brinquedos"
+    "id": "5b7f494158d577ff7200a5e9",
+    "picture": "https://picsum.photos/300/300",
+    "name": "occaecat dolore do",
+    "price": "792.35",
+    "description": "Ullamco laborum pariatur deserunt ea esse ut amet enim commodo nulla proident. Lorem labore ipsum nulla tempor. Id aute sit id dolor. Reprehenderit consectetur est commodo nulla veniam sint. Irure cupidatat reprehenderit reprehenderit excepteur eiusmod eu labore cillum.",
+    "category": "Brinquedos"
+  },
+  {
+    "id": "5b7f4941e246fd28b21da734",
+    "picture": "https://picsum.photos/300/300",
+    "name": "occaecat non ex",
+    "price": "691.34",
+    "description": "Aliqua ullamco nisi adipisicing excepteur magna sit magna cupidatat. Minim exercitation mollit eiusmod incididunt. Velit officia eu nulla cupidatat ea. Labore reprehenderit dolore cupidatat est laborum laborum.",
+    "category": "Eletrônicos, TV e Áudio"
+  },
+  {
+    "id": "5b7f49410050c01f269f15fc",
+    "picture": "https://picsum.photos/300/300",
+    "name": "excepteur culpa culpa",
+    "price": "783.22",
+    "description": "Officia nulla in amet voluptate dolor dolor velit commodo nulla sint. Eiusmod elit dolor magna fugiat dolore quis amet esse consequat laborum culpa. Dolore ullamco deserunt ullamco minim excepteur culpa veniam officia minim quis qui. Duis magna aliquip minim nulla voluptate irure deserunt mollit eiusmod nisi non sit esse. Ea deserunt voluptate nisi cillum.",
+    "category": "Eletroportáteis"
+  },
+  {
+    "id": "5b7f49418ea7466c8e4fce35",
+    "picture": "https://picsum.photos/300/300",
+    "name": "reprehenderit in pariatur",
+    "price": "445.39",
+    "description": "Aliquip elit consectetur sunt irure sunt Lorem. Sint incididunt officia ut sint ipsum enim. Dolor adipisicing do tempor nulla est laborum.",
+    "category": "Eletrônicos, TV e Áudio"
+  },
+  {
+    "id": "5b7f49416b7cc66d71e07bcf",
+    "picture": "https://picsum.photos/300/300",
+    "name": "sunt cupidatat qui",
+    "price": "817.59",
+    "description": "Cillum do anim eu ex ut sint sit. Est laborum adipisicing aliqua irure adipisicing magna pariatur aliqua nostrud aliquip consequat excepteur est. Aute labore est culpa anim fugiat tempor enim fugiat eu et ipsum in laboris do. Consectetur ad ea sit culpa ex sint et excepteur eu adipisicing consequat duis.",
+    "category": "Eletroportáteis"
+  },
+  {
+    "id": "5b7f4941269fb1a426ee3184",
+    "picture": "https://picsum.photos/300/300",
+    "name": "eu consequat enim",
+    "price": "97.62",
+    "description": "Sunt ad irure ut minim adipisicing nisi minim ut laborum ex dolore minim magna. Magna do Lorem reprehenderit laboris reprehenderit duis qui quis cillum velit incididunt ea nisi officia. Non consectetur mollit commodo tempor. Ut nostrud duis incididunt anim. Ex et quis in duis quis duis ipsum mollit labore occaecat occaecat non.",
+    "category": "Eletroportáteis"
+  },
+  {
+    "id": "5b7f49412c61447dd75e8519",
+    "picture": "https://picsum.photos/300/300",
+    "name": "anim excepteur do",
+    "price": "478.32",
+    "description": "Esse et irure velit aute ea ut esse ea dolor cupidatat officia ipsum occaecat. Sunt adipisicing labore nostrud excepteur reprehenderit eu excepteur culpa veniam nisi sit. Est aute consectetur nisi qui officia consequat sint. Fugiat quis cillum eu culpa esse. Proident velit Lorem dolor minim pariatur.",
+    "category": "Celulares e Comunicação"
+  },
+  {
+    "id": "5b7f49410ac78470d819bf87",
+    "picture": "https://picsum.photos/300/300",
+    "name": "veniam anim nulla",
+    "price": "771.88",
+    "description": "Ullamco ut sint cillum ipsum labore occaecat sit sint aute. Ut exercitation qui velit sunt magna deserunt incididunt occaecat excepteur cupidatat consequat. Officia mollit ea excepteur est fugiat adipisicing nostrud dolore reprehenderit adipisicing exercitation ea.",
+    "category": "Eletrodomésticos"
+  },
+  {
+    "id": "5b7f4941bcccc7c48f352761",
+    "picture": "https://picsum.photos/300/300",
+    "name": "dolore magna sunt",
+    "price": "556.25",
+    "description": "Nostrud proident magna reprehenderit et nulla duis enim adipisicing ullamco nostrud sit sunt. Sint dolore ad do consectetur ipsum do voluptate reprehenderit ea cupidatat Lorem amet. Tempor culpa irure fugiat tempor non esse proident. Magna ea elit nisi ad aute veniam. Esse dolor non fugiat ea. Sit et proident aute ipsum ea.",
+    "category": "Automotivo"
+  },
+  {
+    "id": "5b7f4941391d9464305108ad",
+    "picture": "https://picsum.photos/300/300",
+    "name": "aute sint pariatur",
+    "price": "998.83",
+    "description": "Reprehenderit consequat sint sunt nulla sit nostrud esse irure dolor in enim ad enim sunt. Nisi commodo ex laboris dolore nostrud occaecat elit laborum Lorem. Adipisicing non eiusmod in veniam ea culpa reprehenderit cillum mollit nisi tempor aliquip ex enim. Elit excepteur ut eiusmod elit in et quis ad cillum id. Amet voluptate veniam occaecat magna quis reprehenderit sit. Do nisi consequat anim excepteur eiusmod excepteur labore consectetur qui fugiat. Eiusmod anim labore non sunt nostrud amet ea nulla culpa culpa laborum mollit nostrud mollit.",
+    "category": "Automotivo"
+  },
+  {
+    "id": "5b7f4941b3d73ffacaa5d2a1",
+    "picture": "https://picsum.photos/300/300",
+    "name": "et dolore et",
+    "price": "247.84",
+    "description": "Laboris aliqua adipisicing est pariatur id aute consequat consequat magna fugiat ut labore. Non labore fugiat veniam quis cupidatat culpa non voluptate eiusmod fugiat. Laboris dolore esse ut do eiusmod irure cillum Lorem dolor proident elit quis quis nisi. Laboris esse Lorem aliqua aute.",
+    "category": "Brinquedos"
   }
 ];
