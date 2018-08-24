@@ -9,27 +9,29 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="../css/styles.css">
     <script src="../data/products.js"></script>
+    <script src="../js/formatMoney.js"></script>
+    <script src="../js/classes.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="../js/cart.js"></script>
 </head>
 
 <body>
     <div id="shopping-list" class="shopping-list">
-        Shopping List
+        <h3 id="shopping-list-title">Shopping List</h3>
+        <div id="shopping-cart" class="shopping-cart">
+            <ul id="shopping-cart-list">
+            </ul>
+            <button>Checkout</button>
+        </div>
     </div>
 
-    <section>
-        <aside id="list-categories" class="categories-list">
-            <ul>
-                <li>
-                    Categoria 1
-                </li>
+    <section id="list-products">
+        <aside class="categories-list">
+            <ul id="list-categories">
             </ul>
         </aside>
         <nav id="stack-pages">
-            <a href="#">Home</a>
-            |
-            <a href="#">Category</a>
-
+            <a href="../index.html">Home</a>
         </nav>
         <section id="product-especs" class="product-especs">
             <article>
@@ -41,7 +43,7 @@
                             <strong id="product-price" class="product-price">
                                 Price
                             </strong>
-                            <button class="product-btn-add">Add</button>
+                            <button id="product-btn-add" class="product-btn-add">Add</button>
                         </div>
                     </div>
                 </div>
