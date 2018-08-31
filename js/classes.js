@@ -52,8 +52,24 @@ class ShoppingList {
     this.products = [];
   }
 
+  loadProducts(products) {
+    Object.keys(sessionStorage).map(id => {
+      var p = products.filter(element => element.id === id)[0];
+      for (var i = 0; i < parseInt(sessionStorage.getItem(id)); i++) {
+        this.products.push(
+          new Product(p.id, p.name, p.price, p.description, p.url)
+        );
+      }
+    });
+    this.showTotalPrice();
+  }
+
   addProduct(product) {
     this.products.push(product);
+    this.showTotalPrice();
+  }
+
+  showTotalPrice() {
     const elementShoppingList = document.getElementById("shopping-list-title");
     elementShoppingList.innerHTML = `Shopping List $(${this.getTotalPrice()})`;
   }

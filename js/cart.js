@@ -26,3 +26,15 @@ function cartHover(shoppingList) {
     shoppingCart.setAttribute("class", "hide");
   });
 }
+
+function storageToList() {
+  var returnProducts = [];
+  Object.keys(sessionStorage).map(id => {
+    var p = products.filter(element => element.id === id)[0];
+    for (var i = 0; i < parseInt(sessionStorage.getItem(id)); i++) {
+      returnProducts.push(p);
+    }
+  });
+
+  return returnProducts;
+}

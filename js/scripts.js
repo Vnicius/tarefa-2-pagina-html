@@ -1,16 +1,26 @@
 window.onload = () => {
-  const shoppingList = new ShoppingList();
+  function getQuery() {
+    var result = {};
+    var keyValuePairs = location.search.slice(1).split("&");
 
-  function productPage(productId) {
-    var ids = "";
-    shoppingList.getProducts().forEach(product => {
-      ids += product.id + ",";
-    });
+    if (keyValuePairs[0] !== "") {
+      keyValuePairs.forEach(valuePair => {
+        valuePair = valuePair.split("=");
+        result[decodeURIComponent(valuePair[0])] = decodeURIComponent(
+          valuePair[1]
+        );
+      });
 
-    ids = ids.slice(0, ids.length - 1);
-
-    window.location.href = `product/index.html?id=${productId}&shoppingList=${ids}`;
+      return result;
+    } else {
+      return null;
+    }
   }
+
+  const shoppingList = new ShoppingList();
+  shoppingList.loadProducts(products);
+
+  var currentCategory = "";
 
   cartHover(shoppingList);
 
@@ -25,6 +35,10 @@ window.onload = () => {
     "Eletrodomésticos",
     "Eletroportáteis"
   ];
+
+  function productPage(id) {
+    window.location.href = `product/index.html?id=${id}&category=${currentCategory}`;
+  }
 
   function showProductList(products) {
     const productList = document.getElementById("list-products");
@@ -64,6 +78,14 @@ window.onload = () => {
 
       button.addEventListener("click", function(e) {
         e.preventDefault();
+        var quant = sessionStorage.getItem(product.id);
+
+        if (quant) {
+          sessionStorage.setItem(product.id, (parseInt(quant) + 1).toString());
+        } else {
+          sessionStorage.setItem(product.id, "1");
+        }
+
         shoppingList.addProduct(product);
       });
 
@@ -79,6 +101,7 @@ window.onload = () => {
   }
 
   function onClickCategory(category) {
+    currentCategory = category.getType();
     setStack(category.getType());
     showProductList(category.getProducts());
   }
@@ -108,6 +131,7 @@ window.onload = () => {
 
   //// Main
 
+  var selectedCategory = getQuery();
   /**
    * Lista que irá conter os objetos Categoria
    */
@@ -136,6 +160,16 @@ window.onload = () => {
   });
   // categoriesList.forEach(cl => console.log(cl.getType(), cl.getProducts()));
 
+  if (selectedCategory) {
+    var categorySelected = categoriesList.filter(
+      cat => cat.getType() === selectedCategory.category
+    );
+
+    if (categorySelected) {
+      onClickCategory(categorySelected[0]);
+    }
+  }
+
   /**
    * Preeche lista no html dinamicamente
    */
@@ -148,14 +182,14 @@ window.onload = () => {
       stackPages.removeChild(stackPages.firstChild);
     }
     const a1 = document.createElement("a");
-    a1.setAttribute("href", "#");
+    a1.setAttribute("href", "index.html");
     a1.appendChild(document.createTextNode("Home"));
     stackPages.appendChild(a1);
 
     stackPages.appendChild(document.createTextNode(" → "));
 
     const a3 = document.createElement("a");
-    a3.setAttribute("href", "#");
+    a3.setAttribute("href", `index.html?category=${categoryType}`);
     a3.appendChild(document.createTextNode(categoryType));
     stackPages.appendChild(a3);
   }
